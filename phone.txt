@@ -1,0 +1,21 @@
+Mobile
+======================
+- batteryLevel: number
+- phoneState: boolean
+- draftMessagesStorage: array
+- inboxMessagesStorage: array
+- sentMessagesStorage: array
+======================
++ checkState(): boolean
++ turnOn(): void
++ turnOff(): void
++ chargeBattery(): void
++ composeMessage(message: string): void
++ receiveMessage(message: string): void
++ sendMessage(receiver: Mobile): void       
++ checkSentMessages(): array
++ checkInboxMessages(): array
+
+
+
++ sendMessage(receiver: Mobile): void
